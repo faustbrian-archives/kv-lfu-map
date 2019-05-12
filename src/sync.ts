@@ -5,10 +5,10 @@ import { IKeyValueStoreSync } from "@keeveestore/keeveestore";
 import LfuMap from "collections/lfu-map";
 
 export class StoreSync<K, T> implements IKeyValueStoreSync<K, T> {
-	private readonly store: LfuMap<K, T>;
+	private constructor(private readonly store: LfuMap<K, T>) {}
 
-	public constructor(maxSize: number) {
-		this.store = new LfuMap<K, T>({}, maxSize);
+	public static new<K, T>(maxSize: number): StoreSync<K, T> {
+		return new StoreSync<K, T>(new LfuMap<K, T>({}, maxSize));
 	}
 
 	public all(): [K, T][] {
