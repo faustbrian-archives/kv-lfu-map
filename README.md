@@ -6,7 +6,7 @@
 [![Node Engine](https://badgen.now.sh/npm/node/@keeveestore/lfu-map)](https://www.npmjs.com/package/@keeveestore/lfu-map)
 [![Build Status](https://badgen.now.sh/circleci/github/keeveestore/lfu-map)](https://circleci.com/gh/keeveestore/lfu-map)
 [![Codecov](https://badgen.now.sh/codecov/c/github/keeveestore/lfu-map)](https://codecov.io/gh/keeveestore/lfu-map)
-[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/)
+[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/) [![Greenkeeper badge](https://badges.greenkeeper.io/keeveestore/lfu-map.svg)](https://greenkeeper.io/)
 
 ## Installation
 
